@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
-<head>
-</head>
-<body>
-</body>
+  <head>
+    <title>Как правильно сортировать мусор?</title>
+    <meta name="description" content="Узнайте как правильно сортировать мусор и каких ошибок не допускать в этой статье.">
+	<meta name="title" contect="Сортировка мусора для начинающих">
+  </head>
+  <body>
+  </body>
 </html>
