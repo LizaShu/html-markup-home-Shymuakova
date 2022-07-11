@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Как правильно сортировать мусор?</title>
+    <title>Сортировка мусора для начинающих</title>
     <meta name="description" content="Узнайте как правильно сортировать мусор и каких ошибок не допускать в этой статье.">
-	<meta name="title" contect="Сортировка мусора для начинающих">
   </head>
-  <body>
-    <blockquote cite="https://www.azquotes.com/quotes/topics/trash.html">
-Чтобы оставить мир лучше, чем вы его нашли, иногда приходится убирать чужой мусор.
-<hr>
-Билл Най
-</blockquote>
+  <body> 
+      <blockquote cite="https://www.azquotes.com/quotes/topics/trash.html">
+      Чтобы оставить мир лучше, чем вы его нашли, иногда приходится убирать чужой мусор.
+        <hr>
+      Билл Най
+      </blockquote>
   </body>
 </html>
