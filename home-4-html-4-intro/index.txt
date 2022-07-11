@@ -4,11 +4,17 @@
     <title>Сортировка мусора для начинающих</title>
     <meta name="description" content="Узнайте как правильно сортировать мусор и каких ошибок не допускать в этой статье.">
   </head>
-  <body> 
+  <body>
+    <div>  
       <blockquote cite="https://www.azquotes.com/quotes/topics/trash.html">
       Чтобы оставить мир лучше, чем вы его нашли, иногда приходится убирать чужой мусор.
         <hr>
       Билл Най
       </blockquote>
+	</div>
+	  <h1>Как правильно сортировать мусор?</h1>
+	    <br>
+	<div>
+	</div>
   </body>
 </html>
