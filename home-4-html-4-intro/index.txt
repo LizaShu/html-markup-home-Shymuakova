@@ -6,5 +6,10 @@
 	<meta name="title" contect="Сортировка мусора для начинающих">
   </head>
   <body>
+    <blockquote cite="https://www.azquotes.com/quotes/topics/trash.html">
+Чтобы оставить мир лучше, чем вы его нашли, иногда приходится убирать чужой мусор.
+<hr>
+Билл Най
+</blockquote>
   </body>
 </html>
