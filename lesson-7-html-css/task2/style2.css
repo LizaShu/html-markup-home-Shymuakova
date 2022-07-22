@@ -1,0 +1,33 @@
+li {
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+
+A[href="https://yandex.ru/"] {
+    color: #f70;
+}
+
+A[href="https://mail.yandex.by/"] {
+    color: #f70;
+}
+
+A[href="https://www.google.com/"] {
+    color: #666;
+}
+
+A[href="https://www.google.com/maps/"] {
+    color: #666;
+}
+
+A[href="https://news.google.com/"] {
+    color: #666;
+}
+span:after {
+    content: ' \21F1';
+    text-decoration-line: none;
+}
+
+span {
+    display: inline-block;
+    transform: rotate(90deg);
+}
