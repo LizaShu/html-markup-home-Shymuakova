@@ -1,0 +1,54 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Form lesson 8 task1</title>
+  <style>
+    #spr {
+      width:250px; height:150px;
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+  <h2>Sign up to the app</h2>
+  <form>
+    <fieldset>
+      <legend>Personal information:</legend>
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname" name="fname" value="Mickey"><br>
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lname" value="Mouse"><br>
+      <label for="spr">Self-presenation:</label><br>
+      <textarea id="spr" name="spr">The cat was playing in the garden.</textarea><br>
+    </fieldset><br>
+    <fieldset>
+      <legend>Car info (the brand):</legend>
+      <select>
+        <option value="volvo" selected>Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="fiat">Fiat</option>
+        <option value="audi">Audi</option>
+      </select>
+    </fieldset><br>
+    <fieldset>
+      <legend>Choose one:</legend>
+      <input type="radio" id="male" name="choose_sex" value="Male" checked>
+      <label for="male">Male</label><br>
+      <input type="radio" id="female" name="choose_sex" value="Female">
+      <label for="female">Female</label><br>
+      <input type="radio" id="other" name="choose_sex" value="Other">
+      <label for="other">Other</label>
+    </fieldset><br>
+    <fieldset>
+      <legend>Choose many:</legend>
+      <input type="checkbox" id="bike" name="bike" value="I have a bike">
+      <label for="bike">I have a bike</label><br>
+      <input type="checkbox" id="car" name="car" value="I have a car">
+      <label for="car"> I have a car</label><br>
+    </fieldset><br>
+    <input type="submit" name="submit" value="Submit">
+    <input type="button" name="cancel" value="Cancel">
+  </form>
+</body>
+</html>
