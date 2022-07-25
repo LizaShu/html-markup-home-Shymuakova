@@ -12,6 +12,7 @@ ul {
 a {
     text-decoration: none;
     padding: 5px;
+    margin: 15px;
     color: white;
     font-family: oswald;
 }
@@ -22,5 +23,5 @@ a:hover {
 }
 
 #space {
-    margin-right: 800px;
+    margin-left: 500px;
 }
