@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+li {
+    display: inline;
+    margin: 15px;
+}
+
+ul {
+    padding: 5px;
+    background-color: mediumpurple;
+}
+
+a {
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+    font-family: oswald;
+}
+
+a:hover {
+    color: gray;
+    background-color: gainsboro;
+}
+
+#space {
+    margin-right: 800px;
+}
