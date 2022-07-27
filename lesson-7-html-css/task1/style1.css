@@ -1,0 +1,86 @@
+em {
+    color: white;
+    background-color: green;
+}
+
+h1 {
+    text-align: right;
+    color: orange;
+}
+
+p + h2 {
+    color: orange;
+}
+
+h2 {
+    color: blue;
+}
+
+span {
+    font-weight: bold;
+}
+
+.red {
+    color: red;
+}
+
+#green {
+    color: green;
+}
+
+#grey {
+    color: grey;
+}
+
+table tr:first-child {
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+table tr:nth-child(2) {
+    font-weight: bold;
+    text-align: center;
+}
+
+table tr:nth-child(3) {
+    font-weight: normal;
+    text-align: center;
+    color: white;
+    background-color: green;
+}
+
+table tr:nth-child(4) {
+    font-weight: normal;
+    text-align: center;
+    color: white;
+    background-color: green;
+}
+
+table tr:nth-child(5) {
+    font-weight: normal;
+    text-align: center;
+    color: white;
+    background-color: green;
+}
+
+.name {
+    font-weight: normal;
+    background-color: white;
+    color: orange;
+    text-align: left;
+}
+
+table {
+    border: 1px solid grey;
+    width: 500px;
+}
+
+td, th {
+    border: 1px solid grey;
+}
+
+p::first-letter {
+    font-size: 30px;
+    color: red;
+}
