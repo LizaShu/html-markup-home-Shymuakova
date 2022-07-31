@@ -1,0 +1,86 @@
+body {
+    max-width: 1832px;
+    max-height: 500px;
+}
+
+div > span {
+    display: inline-block;
+    text-align: center;
+}
+
+.red {
+    border-radius: 8px;
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
+    background-color: red;
+    font-size: 25px;
+    height: 37px;
+    width: 120px;
+    padding-top: 15px;
+    padding-bottom: 9px;
+    padding-left: 4px;
+    padding-right: 11px;
+    color: white;
+}
+
+.green {
+    font-size: 25px;
+    height: 37px;
+    width: 120px;
+    padding-top: 15px;
+    padding-bottom: 9px;
+    padding-left: 4px;
+    padding-right: 11px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
+    background-color: green;
+    color: white;
+}
+
+.blue {
+    font-size: 25px;
+    height: 37px;
+    width: 91px;
+    padding-top: 15px;
+    padding-bottom: 9px;
+    padding-left: 4px;
+    padding-right: 11px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
+    padding: 10px, 25px;
+    background-color: blue;
+    color: white;
+}
+
+#red:checked ~ .red {
+    display: none;
+}
+
+#green:checked ~ .green {
+    display: none;
+}
+
+#blue:checked ~ .blue {
+    display: none;
+}
+
+#red, #green, #blue {
+    display: none;
+}
+
+label {
+    font-size: 25px;
+    padding-right: 73px;
+    text-decoration-line: underline;
+    color: red;
+}
+
+label + label {
+    color: green;
+    text-decoration-line: underline;
+}
+
+label:last-of-type {
+    padding-right: 60px;
+    color: blue;
+    text-decoration-line: underline;
+}
