@@ -1,0 +1,106 @@
+body {
+    background-color: black;
+    max-width: 1350px;
+}
+
+span {
+    color:#ee8224;
+}
+
+h1 {
+    color: #2d71aa;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Catamaran", Arial, sans-serif;
+    font-weight: bold;
+}
+
+.user_name, .user_status {
+    color: #6e91c5;
+}
+
+p {
+    color: #9f9f9f;
+}
+
+.comment, .comment2 {
+    position: absolute;
+    max-width: 450px;
+    margin: 0;
+    position: relative;
+    border: 3px solid red;
+}
+
+.comment_body {
+    position: relative;
+    max-width: 300px;
+    background-color: white;
+    margin: 0 3px auto 130px;
+    padding: 5px; 5px;
+}
+
+.comment_body:before {
+    position: absolute;
+    margin: 0;
+    top: 50px;
+    left: -28px;
+    content: "";
+    width: 0;
+    border: 15px solid;
+    border-color: transparent white transparent transparent;
+}
+
+.user_name {
+    padding-bottom: 4px;
+    border-bottom: 3px dotted #828282;
+}
+
+.user_name:before {
+        content: ' \002D';
+        padding-right: 3px;
+}
+
+#avatar1 {
+    color: white;
+    max-width: 100px;
+    height: 100px;
+    background: url(file:///C:/Git/html-markup-home-Shumyakova/lesson-11-layouts/task2/knives-ninja.png) no-repeat;
+    background-position: right bottom;
+    background-size: contain;
+    position: relative;
+    top:80px;
+}
+
+.user_status {
+  float: right;    
+}
+
+.clearfix {
+    clear: right;
+}
+
+#avatar2 {
+    color: white;
+    max-width: 100px;
+    height: 100px;
+    background: url(ponsy-deer.png) no-repeat;
+    background-position: right bottom;
+    background-size: contain;
+    position: relative;
+    top: 80px;
+}
+
+.comment2 {
+    left: 50%;
+    bottom: 300px;
+}
+
+.comment1 {
+    right: 50%;
+    bottom: 300px;
+}
+
+.comment-form {
+    background-size: 100%;
+    margin: auto;
+}
