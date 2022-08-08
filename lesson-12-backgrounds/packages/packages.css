@@ -1,0 +1,108 @@
+/* Write your code here */
+body {
+    background-image: url(plans_background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.plus_plan {
+    margin-top: 30px;
+    border: 4px solid #86696c;
+    border-color: #86696c #86696c #86696c transparent;
+    width: 70%;
+    background: rgba(170, 171, 169, 0.8);
+}
+
+h2, h3 {
+    margin-left: 30px;
+    margin-top: -5px;
+    color: black;
+    font-size: 20px;
+    padding: 0;
+}
+
+.recommended {
+    text-transform: uppercase;
+    background-color: #c36657;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    max-width: 120px;
+    border: 2px solid #c36657;
+    text-align: center;
+    float: right;
+    margin: 10px 10px;
+    padding: 5px 5px 5px 5px;
+}
+
+.clearfix {
+    clear: right;
+}
+
+.features {
+    background-color: white;
+    max-width: 95%;
+    border: 2px solid #a0a19e;
+    border-radius: 3px;
+    margin: 25px auto;
+    padding: 10px 10px 10px 10px;
+    opacity: 1;
+    color: black;
+}
+
+.free_plan {
+    margin-top: 30px;
+    border: 4px solid #86696c;
+    border-color: #86696c transparent #86696c #86696c;
+    width: 70%;
+    background: rgba(170, 171, 169, 0.8);
+    float: right;
+}
+
+.free_plan > h2 {
+    margin-top: 30px;
+}
+
+.free_plan > h2 {
+    text-align: right;
+    margin-right: 30px;
+}
+    /* Когда указываю .free_plan > h2, h3 ,то применяется к h3 из первого блока тоже */
+.free_plan > h3 {
+    text-align: right;
+    margin-right: 30px;
+}
+
+.free_plan > .features {
+    text-align: right;
+}
+
+.premium_plan {
+    margin-top: 30px;
+    border: 4px solid #86696c;
+    border-color: #86696c #86696c #86696c transparent;
+    width: 70%;
+    background: rgba(158, 127, 122, 0.8);
+    position: absolute;
+    bottom: 50px;
+}
+
+.premium_plan > h2 {
+    margin-left: 30px;
+    margin-top: 15px;
+    color: white;
+    font-size: 20px;
+    padding: 0;
+}
+
+.premium_plan > h3 {
+    margin-left: 30px;
+    margin-top: 15px;
+    color: #aaaba9;
+    font-size: 20px;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
