@@ -1,0 +1,58 @@
+/* Write your code here */
+.customer-testimonial1 {
+    max-width: 95%;
+}
+
+.avatar {
+    display: inline-block;
+    width: 65%;
+    height: 555px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.name, .name2 {
+    color: #ce3f18;
+    font-weight: bold;
+    font-size: 27px;
+}
+
+.position, .position2 {
+    color: #c0c0c0;
+    font-size: 13px;
+}
+
+.text, .position, .name {
+    text-align: right;
+}
+
+.testimonial1 {
+    max-width: 25%;
+    position: absolute;
+    top: 35%;
+    right: 100px;
+}
+
+.avatar2 {
+    display: inline-block;
+    width: 65%;
+    height: 555px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    float: right;
+}
+
+.clearfix {
+    clear: right;
+}
+
+.text2, name2, position2 {
+    text-align: left;
+}
+
+.testimonial2 {
+    max-width: 25%;
+    position: absolute;
+    bottom: -300px;
+    left: 100px;
+}
