@@ -1,0 +1,47 @@
+@import "file:///C:/Git/Project/project_Shumiakova/home/shared.css";
+
+:root {
+    --button-bg-color: var(--pinky);
+    --button-text-color: var(--dark-green);
+    --button-hover-color: var(--bright-orange);
+    --button-focus-color: var(--dark-green);
+    --button-focus-text-color: var(--pinky);
+}
+.button {
+    display: inline-block;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 0 0.6em;
+    margin: 0;
+    max-width: 100%;
+    height: 2em;
+    border: none;
+    border-radius: 0.2em;
+    box-shadow: 0 0.7em 0 rgba(50, 50, 93, .11),;
+    background-color: var(--button-bg-color);
+    color: var(--button-text-color);
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    text-overflow: ellipsis;
+    line-height: 2em;
+    text-decoration: none;
+    white-space: nowrap;
+    transform: translateY(0);
+    will-change: transform;
+    transition: transform 0.2s .15s ease;
+    cursor: pointer;
+}
+
+.button:hover {
+  color: var(--button-hover-color);
+  box-shadow:
+      0 0.8em 1.8em -0.3em rgba(50, 50, 93, .25),
+      0 0.5em 1em -0.5em rgba(0, 0, 0, 0.3);
+  transform: translateY(0.25em);
+}
+
+.button:focus {
+    background-color: var(--button-focus-color);
+    color: var(--button-focus-text-color);
+}
